@@ -19,3 +19,5 @@ export default (UserList = props => (
   numColumns={3}
 />
 ))
+
+// Flatlist avec les data utilisateur il me rester plus qu'a integrer le carousel 

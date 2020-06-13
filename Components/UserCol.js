@@ -1,8 +1,12 @@
 import React from 'react'
-import { View, Text, Image, StyleSheet } from 'react-native'
+import { 
+  View,
+  Text,
+  Image,
+  StyleSheet } from 'react-native'
 
 export default (UserCol = props => (
-  <View style={styles.row}>
+  <View style={styles.col}>
     <Image style={styles.picture} source={{ uri: props.picture }} />
     <View>
       <Text style={styles.primaryText}>
@@ -13,8 +17,18 @@ export default (UserCol = props => (
 ))
 
 const styles = StyleSheet.create({
-  col: { display: 'flex', flexDirection: 'column', alignItems: 'flex-start', padding: 12},
-  picture: { width: 50, height: 50, borderRadius: 25, marginRight: 18 },
+  col: { 
+  display: 'flex',
+  flexDirection: 'column',
+  alignItems: 'flex-start',
+   padding: 12
+  },
+  picture: { 
+  width: 50,
+  height: 50,
+  borderRadius: 25, 
+  marginRight: 18 
+  },
   primaryText: {
     fontWeight: 'bold',
     fontSize: 14,

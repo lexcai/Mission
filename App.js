@@ -7,9 +7,9 @@
  */
 
 import React from 'react';
-import Accueil from './Container/Accueil';
 import { createBottomTabNavigator } from 'react-navigation-tabs';
-import { NavigationContainer } from 'react-navigation';
+import { NavigationContainer } from 'react-navigation/native';
+import Accueil from './Container/Accueil';
 
 const Tab = createBottomTabNavigator();
 
@@ -23,6 +23,7 @@ function MyTabs() {
     </Tab.Navigator>
   );
 }
+//le MyTabs je testé a quel endroit je devais le mettre c'est pour ca qui est aussi dans un autre fichier mais j'ai pas pu test" car ca a buger
 
 class App extends React.Component {
   

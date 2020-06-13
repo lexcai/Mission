@@ -1,6 +1,6 @@
 import React from 'react'
 import Carousel from 'react-native-snap-carousel';
-import {View, Image} from 'react-native'
+import {View} from 'react-native'
 
 export class MyCarousel extends Component {
 
@@ -24,3 +24,4 @@ export class MyCarousel extends Component {
         );
     }
 }
+// J'avais commencé a essayer de le faire mais comme je perdais du temps je suis passé a autre chose

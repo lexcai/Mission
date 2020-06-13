@@ -15,3 +15,5 @@ function MyTabs() {
 }
 
 export default MyTabs();
+
+// J'en etais la lorsque tout c'est arreté

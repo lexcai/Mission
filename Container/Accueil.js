@@ -35,16 +35,15 @@ export default class App extends Component {
   render() {
     return (
         <View style={styles.main_container}>
-        <View style={styles.top_container}>
+          <View style={styles.top_container}>
             <Text style={styles.main_text}>Hello Halim,</Text>
             <Text style={styles.around_text}>Votre sosie le plus proche</Text>
             <UserList style={styles.user_list} data={sampleData} />
-        </View>
-        <View style={styles.bot_container}>
+          </View>
+          <View style={styles.bot_container}>
             <Text style={styles.bot_text}>Vos autres sosies</Text>
             <UserList data={sampleData} />
-        </View>
-        
+          </View>
         </View>
       )
   }
